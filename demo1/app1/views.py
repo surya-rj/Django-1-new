@@ -6,3 +6,5 @@ from . import urls
 def index(request):
     t=loader.get_template('index.html')
     return HttpResponse(t.render())
+def index1(request):
+    return HttpResponse("hi world")
