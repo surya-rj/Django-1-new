@@ -8,3 +8,5 @@ def index(request):
     return HttpResponse(t.render())
 def index1(request):
     return HttpResponse("hi world team 1")
+def index3(request):
+    return HttpResponse("hi new")
