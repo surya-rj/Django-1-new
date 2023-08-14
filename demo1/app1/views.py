@@ -10,3 +10,5 @@ def index1(request):
     return HttpResponse("hi world team 1")
 def index3(request):
     return HttpResponse("hi new")
+def index45(request):
+    return HttpResponse("hi new")
