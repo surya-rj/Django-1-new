@@ -12,4 +12,6 @@ def index3(request):
     return HttpResponse("hi new")
 def index45(request):
     return HttpResponse("hi new mail surya")
+def new(request):
+    return HttpResponse("check hook")
 
